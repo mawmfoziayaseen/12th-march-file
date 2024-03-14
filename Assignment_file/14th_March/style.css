@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+h1{
+    text-align: center;
+}
 .parent{
     margin: 40px;
     padding: 40px;
@@ -19,6 +22,7 @@
     /* position: absolute; */
     position: fixed;
     left: 100px;
+    border: 2px solid rgb(49, 169, 220);
 
     
 }
@@ -30,6 +34,7 @@
     /* position: absolute; */
     position: static;
     top: 100px;
+    border: 6px solid rgb(31, 232, 222);
     
 
 }
@@ -40,7 +45,7 @@
     display: inline-block;
     /* position: absolute;  */
      position: sticky; 
-    
+     border: 10px solid rgb(8, 19, 8);
     top: 40px;
 
 }
