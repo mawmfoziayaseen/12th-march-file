@@ -16,8 +16,9 @@
     height: 200px;
     background-color:pink;
     display: inline-block;
-    position: absolute;
-    top: 20px;
+    /* position: absolute; */
+    position: fixed;
+    left: 100px;
 
     
 }
@@ -26,8 +27,9 @@
     height: 200px;
     background-color: red;
     display: inline-block;
-    position: absolute;
-    top: 30px;
+    /* position: absolute; */
+    position: static;
+    top: 100px;
     
 
 }
@@ -36,8 +38,9 @@
     height: 200px;
     background-color: rgb(75, 35, 221);
     display: inline-block;
-    position: absolute; 
-    /* position: sticky; */
+    /* position: absolute;  */
+     position: sticky; 
+    
     top: 40px;
 
 }
@@ -46,4 +49,6 @@
     height: 200px;
     background-color: rgb(28, 207, 43);
     display: inline-block;
+    position: absolute;
+    bottom: 30px;
 }
